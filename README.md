@@ -5,7 +5,7 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.17.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 4.0.0 |
 
 ## Providers
 
@@ -21,10 +21,10 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_autoscaling_group.ecs_asg](https://registry.terraform.io/providers/hashicorp/aws/5.17.0/docs/resources/autoscaling_group) | resource |
-| [aws_ecs_capacity_provider.this](https://registry.terraform.io/providers/hashicorp/aws/5.17.0/docs/resources/ecs_capacity_provider) | resource |
-| [aws_launch_template.ecs_lt](https://registry.terraform.io/providers/hashicorp/aws/5.17.0/docs/resources/launch_template) | resource |
-| [aws_ami.ecs_optimized](https://registry.terraform.io/providers/hashicorp/aws/5.17.0/docs/data-sources/ami) | data source |
+| [aws_autoscaling_group.ecs_asg](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/autoscaling_group) | resource |
+| [aws_ecs_capacity_provider.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_capacity_provider) | resource |
+| [aws_launch_template.ecs_lt](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/launch_template) | resource |
+| [aws_ami.ecs_optimized](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami) | data source |
 
 ## Inputs
 
