@@ -21,7 +21,6 @@ variable "enable_default_tags" {
   default     = true
 }
 
-# Instance Configuration
 variable "custom_ami_id" {
   description = "Custom AMI ID to use instead of the latest ECS-optimized AMI"
   type        = string
