@@ -25,7 +25,7 @@ variable "enable_default_tags" {
 variable "custom_ami_id" {
   description = "Custom AMI ID to use instead of the latest ECS-optimized AMI"
   type        = string
-  default     = ""
+  default     = null
 }
 
 variable "instance_types" {
